@@ -1,0 +1,19 @@
+div{
+    width: 50%;
+    height: 100px;
+    background-color: black;
+    /*margin-top: 200px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 200px;*/
+    margin: auto;
+    padding: 40px;
+
+    
+
+}
+p{
+    color: black;
+    background-color: yellowgreen;
+    padding: 20px ;
+}
