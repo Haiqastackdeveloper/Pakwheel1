@@ -1,0 +1,41 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+    animation-name: bgcolor;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform: translate(0px,0px);
+    border-radius: 0%;
+    box-shadow: 9px 9px 10px 5px grey;
+}
+@keyframes bgcolor {
+0%{
+    background-color: brown;
+    transform: translate(0px 0px);
+    border-radius: 0%;
+}
+25%{
+    transform: translate(400px, 0px);
+    background-color: rgb(15, 23, 95);
+    border-radius: 20%;
+}
+50%{
+    background-color: rgb(185, 109, 169);
+    transform: translate(400px, 400px);
+    border-radius: 50%;
+}
+75%{
+    background-color: rgb(131, 12, 109);
+    transform: translate(0px, 400px);
+    border-radius: 50%;
+}
+100%{
+    background-color: brown;
+    border-radius: 0%;
+    transform: translate(0px 0px);
+
+}
+
+}

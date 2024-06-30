@@ -1,0 +1,22 @@
+table{
+    border-collapse: collapse;
+    width: 700px;
+    height: 200px;
+    text-align: center;
+}
+tbody>tr:nth-child(even){
+    background-color: rgba(21, 226, 21, 0.321);
+    color: rgb(9, 63, 9);
+}
+tbody>tr:nth-child(odd){
+    color: rgb(9, 63, 9);
+    background-color: rgba(7, 37, 7, 0.321);
+}
+tbody>tr{
+    background-color: brown;
+}
+tbody>tr:hover{
+    background-color: brown;
+    color: white;
+    transition :all .5s linear;
+}

@@ -1,0 +1,40 @@
+.section1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    background-color: #f2f3f3;
+    font-weight: lighter;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+}
+.section1 h1{
+    margin-left: 150px;
+}
+.row1{
+    height: auto;
+    margin-inline-end: 70px;
+    margin-inline-start: 130px;
+    border-bottom: 1px solid gainsboro;
+}
+.row1 ul li{
+display: inline-block;
+padding: 0px 10px 0px 50px;
+margin-left: -40px;
+}
+.con{
+    width: 90%;
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-bottom: 80px;
+    margin: 100px;
+}
+.div{
+    width: 13%;
+    height: 100px;
+    border: 1px solid white;
+    box-shadow: gainsboro 2px 2px 6px 6px;
+    margin: 15px;
+}
