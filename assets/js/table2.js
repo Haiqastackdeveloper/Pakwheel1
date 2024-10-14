@@ -1,17 +1,18 @@
-let start = parseInt(prompt("Table ki shuruaat ka number dijiye:"));
-let end = parseInt(prompt("Table ka end number dijiye:"));
-let tableNumber = parseInt(prompt("Kaunsa table print karna hai (1, 2, 3, ...)?"));
+let start = parseInt(prompt("Enter the number where table start"));
+let end = parseInt(prompt("Enter the number where table end"));
+let tableNumber = parseInt(prompt("Enter the number of table (1, 2, 3, ...)?"));
 
 if (isNaN(start) || isNaN(end) || isNaN(tableNumber) || start >= end) {
-    alert("Galat input! Shuruaat ka number chhota hona chahiye end number se.");
+    alert("wrong input or incomplete data");
+    location.assign("table2.html")
 } else {
-    let tableContainer = document.getElementById('tableContainer');
+    let tableContainer = document.getElementById('tableContain');
     tableContainer.innerHTML = '';
 
     let table = document.createElement('table');
     let headerRow = document.createElement('tr');
     let header = document.createElement('th');
-    header.textContent = "Table of "+tableNumber+"";
+    header.textContent = "Table of "+tableNumber;
     headerRow.appendChild(header);
     table.appendChild(headerRow);
 
@@ -22,6 +23,5 @@ if (isNaN(start) || isNaN(end) || isNaN(tableNumber) || start >= end) {
         row.appendChild(cell);
         table.appendChild(row);
     }
-
     tableContainer.appendChild(table);
 }
