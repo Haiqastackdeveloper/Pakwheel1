@@ -1,5 +1,4 @@
-var a=0,b=1,c="";
-// for(var i=1; i<100;i++){
+
     var c=a+b;
     d=b+c;
     e=c+d;
