@@ -1,0 +1,21 @@
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: auto;
+  }
+  th{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  td{
+      height: 180px;
+      width: 10px;
+      font-size: 20px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  th, td {
+    padding: 10px;
+  }
